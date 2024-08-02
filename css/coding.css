@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff');
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: 'Pretendard-Regular',"Noto Sans KR";
+    font-weight: 400;
+}
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+#section{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+#section .inner{
+    width: 1200px;
+    max-width: 1200px;
+    height: 100vh;
+    /* border: 1px solid deeppink; */
+    margin: 0 auto;
+    position: relative;
+}
+#section .inner::before{
+    content: '03';
+    font-size: 180px;
+    color: #d6d6d6;
+    font-weight: 900;
+    position: absolute;
+    left: -25%;
+    top: 100px;
+}
+#section .inner::after{
+    content: 'Responsive';
+    font-size: 48px;
+    color: #333;
+    position: absolute;
+    top: 251px;
+    left: -15%;
+}
+#section .inner .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#section .inner .content .img_left{
+    width: 60%;
+
+}
+#section .inner .content .img_left .imgbox{
+    /* width: 100%; */
+    height: 100%;
+    position: relative;
+}
+#section .inner .content .img_left .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+#section .inner .content .img_left .imgbox img.ipad{
+    position: absolute;
+    width: 510px;
+    height: 583px;
+    left: -120px;
+    top: 78px;
+    z-index: 3;
+}
+#section .inner .content .img_left .imgbox .scroll{
+    width: 185px;
+    /* height: 336px; */
+    position: absolute;
+    left: 46px;
+    top: 222px;
+    height: 244px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+#section .inner .content .img_left .imgbox .scroll img{
+    width: 100%;
+    height: 800px;
+    z-index: 10;
+}
+#section .inner .content .img_left .imgbox .scroll img:hover{
+    animation: pc_ani 3s ease-in-out infinite;
+}
+@keyframes pc_ani {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-68%);}
+}
+
+#section .inner .content .img_left .imgbox img.iphone{
+    width: 473px;
+    height: 347px;
+    position: absolute;
+    left: 388px;
+    top: 199px;
+    z-index: 4;
+}
+
+#section .inner .content .img_left .imgbox .scroll_pc{
+    width: 408px;
+    height: 264px;
+    position: absolute;
+    left: 204px;
+    top: 118.5px;
+    /* height: 244px; */
+    overflow: hidden;
+    border-radius: 6px;
+    z-index: 1;
+}
+#section .inner .content .img_left .imgbox .scroll_pc img{
+    width: 100%;
+    height: 800px;
+}
+#section .inner .content .img_left .imgbox .scroll_pc img:hover{
+    animation: pc_ani 3s ease-in-out infinite;
+}
+@keyframes pc_ani {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-68%);}
+}
+
+
+
+#section .inner .content .info_right{
+    /* width: 40%; */
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* margin-left: 30px; */
+}
+
+#section .inner .content .info_right h2{
+    font-size: 38px;
+}
+#section .inner .content .info_right>button{
+    color: #333;
+    width: 350px;
+    font-size: 18px ;
+    padding: 10px 40px;
+    background: #F6883B;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+#section .inner .content .info_right .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+#section .inner .content .info_right .bottom button{
+    background: none;
+    border:1px solid #F6883B;
+    border-radius: 21px;
+    padding: 5px;
+    height: 30px;
+}
+#section .inner .content .info_right .bottom button:hover{
+    background: #F6883B;
+    color: #fff;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
