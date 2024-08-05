@@ -134,3 +134,122 @@ $(document).ready(function(){
 // 	$('.btn .gr').addClass('active')
 
 // })
+
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_free').on('click',function(){
+	  	$('#section3 .free').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .free').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_info_ATEM').on('click',function(){
+	  	$('#section3 .info_ATEM').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .info_ATEM').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_brcgv_info').on('click',function(){
+	  	$('#section3 .brcgv_info').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .brcgv_info').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+// 삼짜공방
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_samjja').on('click',function(){
+	  	$('#section3 .info_samjja').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .info_samjja').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+// 강아지의 날
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_dog').on('click',function(){
+	  	$('#section3 .info_dog').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .info_dog').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+// 텀블러할인
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_Newspaper').on('click',function(){
+	  	$('#section3 .info_new').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .info_new').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+// 스타벅스
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_star').on('click',function(){
+	  	$('#section3 .info_star	').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .info_star').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+// sktlogo
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_logo2').on('click',function(){
+	  	$('#section3 .info_logo2	').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .info_logo2').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+//point
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_point').on('click',function(){
+	  	$('#section3 .info_point').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .info_point').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+//p_DAO
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_DAO').on('click',function(){
+	  	$('#section3 .info_DAO').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .info_DAO').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
+//p_lunch
+$(document).ready(function(){
+	$('#section3 .info').hide()
+	// 탭메뉴 자신 클릭시
+	$('.graphics .p_lunch').on('click',function(){
+	  	$('#section3 .info_lunch').fadeIn();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+	$('#section3 .info p').on('click',function(){
+	  	$('#section3 .info_lunch').fadeOut();    // 모든 li에 'active'클래스 제거;    // 자신에게 'active'클래스 적;
+	});	
+});
